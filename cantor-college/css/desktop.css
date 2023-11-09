@@ -1,0 +1,176 @@
+main{
+    margin-top: 30px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.17em;
+}
+p{
+    font-size: 1em;
+}
+.footer a{
+    font-size: 1em;
+}
+li{
+    font-size: 1em;
+}
+dd{
+    font-size: 1em;
+}
+th{
+    font-size: 1em;
+}
+td{
+    font-size: 1em;
+}
+fieldset{
+    border-width: 2px;
+}
+input{
+    border-width: 2px;
+}
+textarea{
+    border-width: 2px;
+}
+
+/* Logo and nav bar */
+.logo img{
+    width: 35%;
+    height: auto;
+}
+header nav ul{
+    display: flex;
+    background-color: #fff;
+}
+header nav ul li{
+    display: block;
+    flex-basis: 100%;
+    border-width: 2px 2px 2px 0px;
+    border-radius: 0px;
+    background-color: #01695d86;
+}
+header nav ul li:first-child{
+    border-width: 2px 2px 2px 2px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+header nav ul li:last-child{
+    border-width: 2px 2px 2px 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+header nav ul li a{
+    font-size: 1em;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+/* Logo and nav bar */
+
+/* Style type 1 */
+.Style1 h1{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Style1 div{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Style1 p{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+/* Style type 1 */
+
+/* Style type 2 */
+.Style2{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Style2 h1{
+    margin-top: 5px;
+}
+.Style2 h2{
+    margin-left: 5px;
+}
+.Style2 h3{
+    margin-left: 5px;
+}
+.Style2 img{
+    width: 50%;
+}
+.Style2 p{
+    margin-left: 5px;
+}
+.Style2, .SubStyle2{
+    display: flex;
+    justify-content: center;
+}
+.SubStyle2 img{
+    width: 30%;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+.Removal-1{
+    display: block;
+}
+.Removal-2{
+    display: none;
+}
+.ContactVariant h2{
+    margin-left: auto;
+}
+.ContactVariant p{
+    margin-left: auto;
+}
+#Style2h2Centre{
+    margin-left: auto;
+}
+#ListHeaderStyle{
+    margin-left: 5px;
+}
+/* Style type 2 */
+
+/* Contract Information Style */
+.ContractInfoStyle{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ContractInfoStyle h1{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.ContractInfoStyle h2{
+    margin-left: 5px;
+}
+.ContractInfoStyle h3{
+    margin-left: 5px;
+}
+.ContractInfoStyle p{
+    margin-left: 5px;
+}
+/* Contract Information Style */
+
+/* Gallery Style */
+#FacilitiesGallery{
+    display: flex;
+    justify-content: center;
+}
+#FacilitiesGallery img{
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+}
+/* Gallery Style */
+
+/* Footer Style */
+.footer{
+    border-radius: 4px;
+}
+/* Footer Style */
